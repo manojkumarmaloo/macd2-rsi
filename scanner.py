@@ -133,8 +133,8 @@ class Params:
     lbR: int = 5
     range_lower: int = 5
     range_upper: int = 60
-    fast2: int = 5
-    slow2: int = 13
+    fast2: int = 34
+    slow2: int = 144
     signal2: int = 6
     require_div: bool = False
     div_lookback: int = 10
