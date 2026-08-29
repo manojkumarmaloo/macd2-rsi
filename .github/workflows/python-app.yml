@@ -4,7 +4,10 @@ on:
   workflow_dispatch: # allows manual run from GitHub UI
 
   schedule:
-    - cron: "*/15 * * * *" # run every 15 minutes
+    # 9:15 AM to 3:30 PM IST, Monday-Friday
+    - cron: "45-59/15 3 * * 1-5"
+    - cron: "*/15 4-9 * * 1-5"
+    - cron: "0 10 * * 1-5"
 
 jobs:
   scanner:
