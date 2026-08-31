@@ -9,7 +9,7 @@ on:
     - cron: "45 3 * * 1-5"
 
     # 9:30 AM IST to 2:45 PM IST (every 15 minutes)
-    - cron: "0,15,30,45 4-9 * * 1-5"
+    - cron: '*/15 4-9 * * 1-5'
 
     # 3:00 PM, 3:15 PM, 3:30 PM IST
     - cron: "0,15,30 10 * * 1-5"
